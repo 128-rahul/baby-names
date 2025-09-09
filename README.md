@@ -2,7 +2,8 @@
      crossorigin="anonymous"></script><!DOCTYPE html>
 <html lang="en">
 <head><!DOCTYPE html>
-<html lang="en">
+<html lang="en"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9815011330871700"
+     crossorigin="anonymous"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
