@@ -401,7 +401,42 @@ window.onload = generateRandomNumber; // page load hote hi number show ho
     <div class="card girl">Priya</div>
     <div class="card boy">Kabir</div>
     <div class="card girl">Ishita</div>
-  </div>
+  </div> 
+  <section style="text-align:center; margin-top:30px;">
+  <h2 style="color:#ff4d6d; font-family:Arial, sans-serif;">🌸 Baby Pink Names 🌸</h2>
+  <div id="nameList" style="
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:10px;
+      margin-top:20px;
+  "></div>
+</section>
+
+<script>
+// Example: Large array of 5000+ names
+const names = [];
+for(let i=1; i<=5000; i++){
+    names.push("BabyName" + i); // Boss, yahan aap real baby names replace kar sakte ho
+}
+
+// Function to display names
+const nameListDiv = document.getElementById("nameList");
+names.forEach(name => {
+    const span = document.createElement("span");
+    span.textContent = name;
+    span.style.cssText = `
+        padding:5px 10px;
+        background:#ffccd5;
+        color:#ff4d6d;
+        border-radius:8px;
+        font-weight:bold;
+        margin:3px;
+        display:inline-block;
+    `;
+    nameListDiv.appendChild(span);
+});
+</script>
 
   <footer>Made with ❤️ by Public Rahul</footer>
 
