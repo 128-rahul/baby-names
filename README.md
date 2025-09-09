@@ -4,18 +4,6 @@
 <head><!DOCTYPE html>
 <html lang="en">
 <head>
-     // JavaScript for the dynamic counter
-document.addEventListener("DOMContentLoaded", function() {
-    const counterElement = document.getElementById("counterValue");
-    
-    // Generate a random number between 100 and 500
-    const randomNumber = Math.floor(Math.random() * (500 - 100 + 1)) + 100;
-    
-    // Update the text content of the counter
-    if (counterElement) {
-        counterElement.textContent = randomNumber + "+";
-    }
-});
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baby Names</title>
@@ -69,7 +57,52 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <script src="script.js"></script>
 </body>
-</html>
+</html><!-- Random Number Section Start -->
+<section style="text-align:center; margin-top:30px;">
+  <h2 style="color:#ff4d6d; font-family:Arial, sans-serif;">🎲 आपका यादृच्छिक नंबर</h2>
+  <div id="randomNumberBox" style="
+      display:inline-block;
+      padding:20px 40px;
+      margin-top:15px;
+      font-size:30px;
+      color:#fff;
+      background:linear-gradient(135deg, #ff4d6d, #ffccd5);
+      border-radius:15px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.3);
+      font-weight:bold;
+      min-width:100px;
+      transition: all 0.3s ease;
+  ">0</div>
+  <br>
+  <button onclick="generateRandomNumber()" style="
+      margin-top:20px;
+      padding:10px 25px;
+      font-size:16px;
+      background:#ff4d6d;
+      color:white;
+      border:none;
+      border-radius:10px;
+      cursor:pointer;
+      box-shadow:0 3px 8px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+  " 
+  onmouseover="this.style.background='#ff3366';" 
+  onmouseout="this.style.background='#ff4d6d';">
+    नया नंबर दिखाएँ
+  </button>
+</section>
+
+<script>
+function generateRandomNumber() {
+    var number = Math.floor(Math.random() * 100) + 1; // 1 se 100 tak random number
+    var box = document.getElementById("randomNumberBox");
+    box.textContent = number;
+    box.style.transform = "scale(1.2)"; // animation
+    setTimeout(function(){ box.style.transform = "scale(1)"; }, 300);
+}
+window.onload = generateRandomNumber; // page load hote hi number show ho
+</script>
+<!-- Random Number Section End -->
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9815011330871700"
      crossorigin="anonymous"></script>
   <meta charset="UTF-8">
