@@ -3,7 +3,38 @@
 <html lang="en">
 <head><!DOCTYPE html>
 <html lang="en">
-<head>
+<head>/* Scrolling Line Container */
+.scrolling-line-container {
+    width: 100%;
+    overflow: hidden; /* Hide the overflow content */
+    background-color: #ff69b4; /* Pink background color */
+    color: white;
+    padding: 10px 0;
+    white-space: nowrap; /* Prevent the text from wrapping to the next line */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Scrolling Line Animation */
+.scrolling-line {
+    display: inline-block;
+    padding-left: 100%; /* Start the text outside the view */
+    animation: scroll-left 25s linear infinite;
+}
+
+.scrolling-line p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baby Names</title>
