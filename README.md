@@ -417,25 +417,7 @@ window.onload = generateRandomNumber; // page load hote hi number show ho
 // Example: Large array of 5000+ names
 const names = [];
 for(let i=1; i<=5000; i++){
-    names.push("BabyName" + i); // Boss, yahan aap real baby names replace kar sakte ho
-}
-
-// Function to display names
-const nameListDiv = document.getElementById("nameList");
-names.forEach(name => {
-    const span = document.createElement("span");
-    span.textContent = name;
-    span.style.cssText = `
-        padding:5px 10px;
-        background:#ffccd5;
-        color:#ff4d6d;
-        border-radius:8px;
-        font-weight:bold;
-        margin:3px;
-        display:inline-block;
-    `;
-    nameListDiv.appendChild(span);
-});
+    names.push("BabyName"
 </script>
 
   <footer>Made with ❤️ by Public Rahul</footer>
