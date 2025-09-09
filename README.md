@@ -460,9 +460,6 @@ body
     <!-- Jaipur Address -->
     <p>📍 101, चौराहा बाजार, जयपुर, राजस्थान 302001</p>
     
-    <!-- Email ID based on website name -->
-    <p>📧 Email: sunhariduniya@example.com</p>
-    
     <!-- Copyright -->
     <p>&copy; 2025 सुनहरी दुनिया</p>
   </div>
