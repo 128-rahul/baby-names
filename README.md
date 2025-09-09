@@ -324,15 +324,7 @@
 </body>
 </html>
 <
-body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; }
-header { background:#ff4d6d; color:white; padding:15px; text-align:center; }
-nav { background:#ffccd5; padding:10px; text-align:center; }
-nav a { margin:0 10px; text-decoration:none; color:#333; font-weight:bold; }
-section { padding:20px; max-width:800px; margin:auto; background:white; margin-top:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
-footer { background:#ff4d6d; color:white; text-align:center; padding:10px; margin-top:20px; }
-
-
----
+body 
 
 2️⃣ index.html
 
@@ -460,7 +452,21 @@ footer { background:#ff4d6d; color:white; text-align:center; padding:10px; margi
 <section>
 <h2>Privacy Information</h2>
 <p>This website respects user privacy. We do not sell or share your data. All data usage is in compliance with Google AdSense policies.</p>
-</section>
+</section><footer>
+  <div style="text-align:center; padding:15px; background:#ff4d6d; color:white; border-top:2px solid #ffccd5;">
+    <!-- Attractive Hindi Name -->
+    <h3>✨ सुनहरी दुनिया ✨</h3>
+    
+    <!-- Jaipur Address -->
+    <p>📍 101, चौराहा बाजार, जयपुर, राजस्थान 302001</p>
+    
+    <!-- Email ID based on website name -->
+    <p>📧 Email: sunhariduniya@example.com</p>
+    
+    <!-- Copyright -->
+    <p>&copy; 2025 सुनहरी दुनिया</p>
+  </div>
+</footer>
 <footer>
 &copy; 2025 My GitHub Site
 </footer>
