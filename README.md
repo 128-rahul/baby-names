@@ -414,9 +414,9 @@ window.onload = generateRandomNumber; // page load hote hi number show ho
 </section>
 
 <script>
-// Example: Large array of 5000+ names
+// Example: Large array of 500+ names
 const names = [];
-for(let i=1; i<=5000; i++){
+for(let i=1; i<=500; i++){
     names.push("BabyName"
 </script>
 
