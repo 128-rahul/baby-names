@@ -23,7 +23,7 @@
     .navbar h1 {
       margin: 0;
       font-size: 22px;
-    }
+    }google.com, pub-9815011330871700, DIRECT, f08c47fec0942fa0
     .menu {
       display: flex;
       gap: 15px;
@@ -321,3 +321,4 @@
   </script>
 </body>
 </html>
+<meta name="google-adsense-account" content="ca-pub-9815011330871700">
