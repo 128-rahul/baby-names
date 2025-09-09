@@ -324,3 +324,145 @@
 </body>
 </html>
 <
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; }
+header { background:#ff4d6d; color:white; padding:15px; text-align:center; }
+nav { background:#ffccd5; padding:10px; text-align:center; }
+nav a { margin:0 10px; text-decoration:none; color:#333; font-weight:bold; }
+section { padding:20px; max-width:800px; margin:auto; background:white; margin-top:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+footer { background:#ff4d6d; color:white; text-align:center; padding:10px; margin-top:20px; }
+
+
+---
+
+2️⃣ index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My GitHub Site</title>
+<!-- Google AdSense Verification -->
+<meta name="google-site-verification" content="YOUR_CODE_HERE">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Welcome to My GitHub Site</h1>
+</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy Policy</a>
+</nav>
+<section>
+<h2>Hello!</h2>
+<p>This is your homepage. Replace this with your content. Add posts or articles to make your site AdSense ready.</p>
+</section>
+<footer>
+&copy; 2025 My GitHub Site
+</footer>
+</body>
+</html>
+
+
+---
+
+3️⃣ about.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>About Us</h1>
+</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy Policy</a>
+</nav>
+<section>
+<h2>About This Website</h2>
+<p>Write something about yourself or your website here. Make it informative for visitors and Google.</p>
+</section>
+<footer>
+&copy; 2025 My GitHub Site
+</footer>
+</body>
+</html>
+
+
+---
+
+4️⃣ contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Contact Us</h1>
+</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy Policy</a>
+</nav>
+<section>
+<h2>Get in Touch</h2>
+<p>Email: yourname@example.com</p>
+<p>Phone: +91-XXXXXXXXXX</p>
+<p>You can also contact us via social media links here.</p>
+</section>
+<footer>
+&copy; 2025 My GitHub Site
+</footer>
+</body>
+</html>
+
+
+---
+
+5️⃣ privacy.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Privacy Policy</h1>
+</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy Policy</a>
+</nav>
+<section>
+<h2>Privacy Information</h2>
+<p>This website respects user privacy. We do not sell or share your data. All data usage is in compliance with Google AdSense policies.</p>
+</section>
+<footer>
+&copy; 2025 My GitHub Site
+</footer>
+</body>
+</html>
