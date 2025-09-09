@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9815011330871700"
+     crossorigin="anonymous"></script><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
