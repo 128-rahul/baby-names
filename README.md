@@ -309,7 +309,7 @@
     const namesList = document.getElementById("namesList");
     const cards = namesList.getElementsByClassName("card");
 
-    searchInput.addEventListener("keyup", function() {
+    google.com, pub-9815011330871700, DIRECT, f08c47fec0942fa0searchInput.addEventListener("keyup", function() {
       const filter = searchInput.value.toLowerCase();
       for (let i = 0; i < cards.length; i++) {
         let txtValue = cards[i].textContent || cards[i].innerText;
