@@ -58,6 +58,7 @@
 
     <script src="script.js"></script>
 </body>
+<meta name="google-adsense-account" content="ca-pub-9815011330871700">
 </html><!-- Random Number Section Start -->
 <section style="text-align:center; margin-top:30px;">
   <h2 style="color:#ff4d6d; font-family:Arial, sans-serif;">🎲 आपका यादृच्छिक नंबर</h2>
